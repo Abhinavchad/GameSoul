@@ -38,7 +38,7 @@ const Navbar = () => {
               to="/"
               className="navbar-brand text-white text-uppercase no-wrap"
             >
-              Game <span style={{ color: "orchid" }}>Soul</span>
+              Game<span style={{ color: "orchid" }}>Soul</span>
             </Link>
             <button
               type="button"
