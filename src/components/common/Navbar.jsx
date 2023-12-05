@@ -22,7 +22,7 @@ const Navbar = () => {
       <div className="container w-100">
         <div className="navbar-content">
           <img
-            src="./src/assets/images/LimeWire_AI_Studio_Asset__1_-removebg-preview.png"
+            src="https://i.ibb.co/WfqZSZt/Lime-Wire-AI-Studio-Asset-1-removebg-preview.png"
             alt="Logo"
             className="logo"
             style={{
