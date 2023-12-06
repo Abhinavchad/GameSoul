@@ -7,15 +7,15 @@ const AppRouter = () => {
   return (
     <BrowserRouter>
         <Routes>
-            <Route path = "/" element = { <BaseLayout /> }>
-                <Route path = "/" element = { <Home />} />
-                <Route path = "/error" element = { <Error />} />
-                <Route path = "/games" element = { <ViewGameAll />} />
-                <Route path = "/games/:gameId" element = {<ViewGameDetails />} />
-                <Route path = "/stores" element = { <ViewStoreAll /> } />
-                <Route path = "/stores/:storeId" element = { <ViewStoreDetails /> } />
-                <Route path = "/creators" element = { <ViewCreatorAll /> } />
-                <Route path = "*" element = { <Error />} />
+            <Route excat path = "/" element = { <BaseLayout /> }>
+                <Route exact path = "/" element = { <Home />} />
+                <Route exact path = "/error" element = { <Error />} />
+                <Route exact path = "/games" element = { <ViewGameAll />} />
+                <Route exact path = "/games/:gameId" element = {<ViewGameDetails />} />
+                <Route exact path = "/stores" element = { <ViewStoreAll /> } />
+                <Route exact path = "/stores/:storeId" element = { <ViewStoreDetails /> } />
+                <Route exact path = "/creators" element = { <ViewCreatorAll /> } />
+                <Route exact path = "*" element = { <Error />} />
             </Route>
         </Routes>
     </BrowserRouter>

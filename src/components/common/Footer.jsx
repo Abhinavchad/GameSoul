@@ -56,7 +56,7 @@ const Footer = () => {
             <li><a href = "/" className='text-white'>Home</a></li>
             <li><a href = "/" className='text-white'>Help Center</a></li>
             <li><a href = "/" className='text-white'>Contact</a></li>
-            <li><a href = "/" className='text-white'>Terms & Coditions</a></li>
+            <li><a href = "/" className='text-white'>Terms & Conditions</a></li>
           </ul>
         </div>
       </div>
